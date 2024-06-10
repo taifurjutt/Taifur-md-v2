@@ -50,7 +50,7 @@
 const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 
-var surl = 'https://github.com/Tamoom/LUCIFER-bot // Source URL
+var surl = 'https://github.com/Itxtaifur/Taifur-md-v2 // Source URL
 const number = '4593707292 
 var name = ' 𝕎𝔸𝕊𝕀 𝕋𝔼ℂℍ'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
