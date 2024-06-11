@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "Taifur-𝗠𝗗",
+           title: "𝐓𝐀𝐈𝐅𝐔𝐑-𝗠𝗗",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -510,6 +510,7 @@ const {
    pattern: "invite",
    desc: "get group link.",
    category: "group",
+   react: "🔗",
    filename: __filename
  }, async _0x53f8e3 => {
    try {
@@ -550,6 +551,7 @@ const {
    pattern: "tagall",
    desc: "Tags every person of group.",
    category: "group",
+   react: "📡",
    filename: __filename
  }, async (_0x1ed055, _0x929954) => {
    try {
@@ -563,7 +565,7 @@ const {
      let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
      for (let _0x502431 of _0x5d614a) {
        if (!_0x502431.id.startsWith("2348039607375")) {
-         _0x392a2d += " 🧐 @" + _0x502431.id.split("@")[0] + "\n";
+         _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
        }
      }
      await _0x1ed055.bot.sendMessage(_0x1ed055.chat, {
@@ -969,6 +971,7 @@ const {
    pattern: "tag",
    alias: ["hidetag"],
    desc: "Tags everyperson of group without mentioning their numbers",
+   react: "😒",
    category: "group",
    filename: __filename,
    use: "<text>"
