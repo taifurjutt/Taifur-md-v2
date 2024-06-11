@@ -530,8 +530,8 @@ astro_patch.cmd(
 astro_patch.smd(
   {
     pattern: "ping",
-    desc: "To check ping",
     react: "📡",
+    desc: "To check ping",
     category: "user",
     filename: __filename,
   },
@@ -541,7 +541,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*Pong....📍: ${pingTime} ᴍs*`,
+      `*Pong....📍 ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
