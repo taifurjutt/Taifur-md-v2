@@ -60,7 +60,9 @@ Join our WhatsApp support group for assistance and discussions!
 ### 𝕋ℍ𝔸ℕ𝕂𝕊 𝕋𝕆
  [`ASTROPED FOR PLUGINS `](https://github.com/astroped)
   [`ibrahim-tech-for-help`](https://github.com/ibrahimaitech)
-  
+  [`HASSAN Bro-for-Bug-Test`](https://github.com/gulhassanali)
+  [`Dev by My Bro Wasi`](https://github.com/Itxxwasi)
+
 
 
 
