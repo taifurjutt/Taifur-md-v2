@@ -82,7 +82,7 @@ smd({
     }
     let _0x44d3dd = _0x3febcd.split("|");
     let _0x47c982 = _0x44d3dd[0]?.trim() !== "" ? _0x44d3dd[0] : _0x471740.pushName;
-    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "Taif 𝐦𝐝 𝐯3 ♥️";
+    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "𝐓𝐀𝐈𝐅 𝐦𝐝 𝐯2♥️";
     let _0x3ab776 = await _0xad98fb.download();
     let _0x3d0871 = {
       pack: _0x47c982,
@@ -336,7 +336,7 @@ smd({
     try {
       await _0xa1cfa2.send(_0x3dabe8, {
         packname: Config.packname,
-        author: "𝐖𝐀𝐒𝐈-𝐌𝐃"
+        author: "𝐓𝐀𝐈𝐅𝐔𝐑-𝐌𝐃"
       }, "sticker");
     } catch (_0x5763ea) {
       console.log("error in quotely : ", _0x5763ea);
@@ -356,7 +356,7 @@ smd({
   pattern: "fancy",
   desc: "Makes stylish/fancy given text",
   category: "converter",
-  use: "56 TAIFUR MD V3",
+  use: "56 TAIFUR MD V2",
   filename: __filename
 }, async (_0x230c03, _0x3b568a) => {
   try {
