@@ -1384,8 +1384,8 @@ smd(
      pattern: "tiktok",
      alias: ["tt", "ttdl"],
      desc: "Downloads Tiktok Videos Via Url.",
+     react: "📽",
      category: "downloader",
-     react: "📥",
      filename: __filename,
      use: "<add tiktok url.>",
    },
@@ -1618,7 +1618,7 @@ smd(
    pattern: "song",
    alias: ["audio"],
    desc: "Downloads audio from youtube.",
-   react: "🎼",
+   react: "🎵",
    category: "downloader",
    filename: __filename,
    use: "<give text>"
