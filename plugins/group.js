@@ -971,7 +971,7 @@ const {
    pattern: "tag",
    alias: ["hidetag"],
    desc: "Tags everyperson of group without mentioning their numbers",
-   react: "😒",
+   react: "👻",
    category: "group",
    filename: __filename,
    use: "<text>"
