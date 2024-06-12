@@ -1067,7 +1067,7 @@ smd(
      const _0x4ac8f2 = await search(_0x1cb962);
      if (_0x4ac8f2.length) {
        let _0x3d85b = await download(_0x4ac8f2[0].id);
-       let _0x307e6f = "*Taif MD V2 -ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
+       let _0x307e6f = "*Taifur MD V2 -ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
        for (let _0x5a5920 = 0; _0x5a5920 < _0x4ac8f2.length; _0x5a5920++) {
          _0x307e6f += "\n*" + (_0x5a5920 + 1) + " : " + _0x4ac8f2[_0x5a5920].name + "* \n*Id : " + _0x4ac8f2[_0x5a5920].id + "* \n";
        }
@@ -1384,7 +1384,7 @@ smd(
      pattern: "tiktok",
      alias: ["tt", "ttdl"],
      desc: "Downloads Tiktok Videos Via Url.",
-     react: "📽",
+     react: "💃",
      category: "downloader",
      filename: __filename,
      use: "<add tiktok url.>",
@@ -1592,7 +1592,7 @@ smd(
          return m.reply("*_Could not find the file!_*");
        }
  
-       const caption = `『 *Taif MD V3 -ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
+       const caption = `『 *Taifur MD V2 -ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
        const fancyCaption = await fancytext(caption, 25);
        const contextInfo = {
          ...(await m.bot.contextInfo(Config.botname, "MEDIAFIRE")),
@@ -1618,7 +1618,7 @@ smd(
    pattern: "song",
    alias: ["audio"],
    desc: "Downloads audio from youtube.",
-   react: "🎵",
+   react: "🎶",
    category: "downloader",
    filename: __filename,
    use: "<give text>"
@@ -1647,7 +1647,7 @@ smd({
    pattern: "play",
    alias: ["music"],
    desc: "Downloads audio from youtube.",
-   react: "🎵",
+   react: "🎶",
    category: "downloader",
    filename: __filename,
    use: "<give text>"
@@ -1979,7 +1979,7 @@ smd({
        try {
          await _0xb75e78.sendMessage(_0xb75e78.chat, {
            react: {
-             text: "✨",
+             text: "📥",
              key: _0xb75e78.key
            }
          });
@@ -2037,7 +2037,7 @@ smd({
            if (_0x37a579.startsWith("http")) {
              await _0xb75e78.sendMessage(_0xb75e78.chat, {
                react: {
-                 text: "✨",
+                 text: "📥",
                  key: _0xb75e78.key
                }
              });
@@ -2066,7 +2066,7 @@ smd({
            _0xb75e78.error(_0x3de0e2 + "\n\nCommand yts Listener", _0x3de0e2, "*Video Not Found!*");
          }
        }
-     } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
+     } else if (_0x5b8ee5[0].includes("taif-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
        let _0x35d668 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
        const _0x205a5f = _0x5b8ee5.find(_0x304058 => _0x304058.startsWith(_0x35d668));
        if (_0x205a5f) {
@@ -2076,7 +2076,7 @@ smd({
            const _0x2407a8 = _0x14618c.split("*")[1].replace("Id : ", "").trim();
            await _0xb75e78.sendMessage(_0xb75e78.chat, {
              react: {
-               text: "✨",
+               text: "📥",
                key: _0xb75e78.key
              }
            });
@@ -2233,7 +2233,7 @@ smd({
   'pattern': "video",
   'desc': "Downloads video from yt.",
   'category': 'downloader',
-  'react': "🎥",
+  'react': "📺",
   'filename': __filename,
   'use': "<faded-Alan Walker>"
 }, async (_0x5dab40, _0x5bce2e) => {
